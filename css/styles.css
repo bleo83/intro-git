@@ -1,0 +1,26 @@
+div{
+  margin:20px;
+}
+
+.boxtransformacion{
+  width: 200px;
+  height:200px;
+  background-color:blue;
+}
+.boxtransformacion:hover{
+  transform:scaleY(4);
+  transition: all 2s ease;
+}
+.main-tittle{
+  transform:matrix(0.866,0.5,-0.8,0.866,0,0);
+}
+.boxtransicion{
+  width: 200px;
+  height:200px;
+  background-color: green;
+  transition: all 2s ease-out;
+}
+.boxtransicion:hover{
+  transform: translate(100px);
+  transition: all 2s ease;
+}
